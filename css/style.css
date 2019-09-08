@@ -1477,8 +1477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul li {
-  border-bottom: 1px solid #262c44;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 
 #footer .footer-top .footer-links ul li:first-child {

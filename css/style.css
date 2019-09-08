@@ -1119,7 +1119,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #ddd;
 }
 
-#faq #faq-list a {
+#faq #faq-list .question {
   padding: 18px 0;
   display: block;
   position: relative;
@@ -1141,15 +1141,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-#faq #faq-list a.collapse {
+#faq #faq-list .question.collapse {
   color: #73121B;
 }
 
-#faq #faq-list a.collapsed {
+#faq #faq-list .question.collapsed {
   color: #000;
 }
 
-#faq #faq-list a.collapsed i::before {
+#faq #faq-list .question.collapsed i::before {
   content: "\f055" !important;
 }
 

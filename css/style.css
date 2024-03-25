@@ -495,7 +495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: linear-gradient(0deg, rgba(36,0,5,1) 0%, rgba(121,9,23,0.6617997540813201) 16%);
+  background: linear-gradient(0deg, rgba(36,0,5,1) 0%, rgba(120, 65, 71, 0.662) 16%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -727,7 +727,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
+  background: rgba(101, 76, 76, 0.76);
   position: absolute;
   left: 0;
   bottom: -30px;
@@ -1087,12 +1087,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
-#supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
-  margin-bottom: 30px;
-}
-
 #supporters .supporter-logo {
   padding: 30px;
   display: -webkit-box;
@@ -1108,7 +1102,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
+  height: 350px;
 }
 
 #supporters .supporter-logo:hover img {
@@ -1116,8 +1110,72 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1.2);
 }
 
+#supporters .supporters-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+
 #supporters img {
   transition: all 0.4s ease-in-out;
+}
+
+#supporters .supporter-logo-safira:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#supporters .supporter-logo-safira {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  border-top: 1px solid #e0e5fa;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  background: rgba(255, 255, 255, 0.5);
+  height: 200px;
+}
+
+#supporters .supporters-safira-wrap {
+  margin-bottom: 30px;
+}
+
+#supporters .supporter-logo-esmeralda:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#supporters .supporter-logo-esmeralda {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  border-top: 1px solid #e0e5fa;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  background: rgba(255, 255, 255, 0.5);
+  height: 180;
+}
+
+#supporters .supporters-esmeralda-wrap {
+  margin-bottom: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1676,4 +1734,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+}
+
+/* Sponsor Images */
+
+.img-fluid-contain {
+  width: 100%;
+  object-fit: contain;
 }

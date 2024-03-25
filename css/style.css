@@ -495,7 +495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: linear-gradient(0deg, rgba(36,0,5,1) 0%, rgba(121,9,23,0.6617997540813201) 16%);
+  background: linear-gradient(0deg, rgba(36,0,5,1) 0%, rgba(120, 65, 71, 0.662) 16%);
   position: absolute;
   bottom: 0;
   top: 0;

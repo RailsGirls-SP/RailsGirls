@@ -1102,12 +1102,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 350px;
-}
-
-#supporters .supporter-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #supporters .supporters-wrap {
@@ -1118,11 +1112,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters img {
   transition: all 0.4s ease-in-out;
-}
-
-#supporters .supporter-logo-safira:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #supporters .supporter-logo-safira {
@@ -1147,11 +1136,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters .supporters-safira-wrap {
   margin-bottom: 30px;
-}
-
-#supporters .supporter-logo-esmeralda:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #supporters .supporter-logo-esmeralda {

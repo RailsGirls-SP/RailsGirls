@@ -1087,6 +1087,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+#supporters h3{
+  margin: 10px 0 2px 0;
+}
+
 #supporters .supporter-logo {
   padding: 30px;
   display: -webkit-box;

@@ -362,6 +362,12 @@ h6 {
   margin: 0;
 }
 
+.square-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {

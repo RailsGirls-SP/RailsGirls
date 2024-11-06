@@ -8,12 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.nav-menu a.dropdown-item{
+.nav-menu a.dropdown-item {
   color: #000;
 }
 
-.nav-menu a.dropdown-item:hover{
-  color:#060c22;
+.nav-menu a.dropdown-item:hover {
+  color: #060c22;
 }
 
 
@@ -223,12 +223,12 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -285,11 +285,11 @@ h6 {
   color: #fff;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 8px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: "";
   position: absolute;
   width: 0;
@@ -302,8 +302,8 @@ h6 {
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
 }
@@ -353,7 +353,7 @@ h6 {
   border-radius: 3px;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   background: #73121B;
   color: #fff;
 }
@@ -491,7 +491,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: linear-gradient(0deg, rgba(36,0,5,1) 0%, rgba(120, 65, 71, 0.662) 16%);
+  background: linear-gradient(0deg, rgba(36, 0, 5, 1) 0%, rgba(120, 65, 71, 0.662) 16%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1099,7 +1099,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
-#supporters h3{
+#supporters h3 {
   margin: 10px 0 2px 0;
 }
 
@@ -1171,7 +1171,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
   background: rgba(255, 255, 255, 0.5);
-  height: 180;
+  height: 100%;
 }
 
 #supporters .supporters-esmeralda-wrap {
@@ -1294,7 +1294,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1623,6 +1623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {

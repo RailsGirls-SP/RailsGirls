@@ -1,0 +1,14 @@
+<section id="seja-um-apoiador" class="apoiadores-cta revelar" aria-labelledby="apoiadores-cta-titulo">
+  <div class="container centralizado">
+    <h2 id="apoiadores-cta-titulo">Empresas que já apoiaram a impulsionar nossa jornada</h2>
+    <p>Somos gratas a essas empresas incríveis que tornam este projeto possível.</p>
+    <div class="apoiadores-cta__cartao">
+      <ul class="apoiadores-cta__logos">
+        {% for a in site.data.apoiadores %}
+        <li><img src="{{ a.logo | relative_url }}" alt="{{ a.nome }}" loading="lazy" width="200" height="90"></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <a class="botao botao--claro" href="mailto:{{ site.data.social.email_contato }}">Seja um Apoiador</a>
+  </div>
+</section>

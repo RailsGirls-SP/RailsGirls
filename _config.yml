@@ -1,0 +1,23 @@
+title: Rails Girls São Paulo
+description: >-
+  Rails Girls chegou em São Paulo e agora não sai mais! Venha para se divertir
+  e aprender Ruby on Rails conosco!
+url: "https://railsgirls.com.br"
+baseurl: ""
+lang: pt-BR
+
+logo: /assets/img/logo-rails-girls.png
+image: /assets/img/placeholders/og-image.svg
+
+author:
+  name: Rails Girls São Paulo
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - plan/
+  - CLAUDE.md
+  - MANUTENCAO.md
+  - README.md

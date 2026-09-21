@@ -1,0 +1,16 @@
+<section class="depoimentos revelar" aria-labelledby="depoimentos-titulo">
+  <div class="container centralizado">
+    <h2 id="depoimentos-titulo" class="titulo-secao">O que dizem as ex-participantes</h2>
+    <ul class="depoimentos__lista">
+      {% for d in site.data.depoimentos %}
+      <li class="depoimentos__card">
+        <blockquote>
+          <p class="depoimentos__nome">{{ d.nome }}</p>
+          <p class="depoimentos__edicao">{{ d.edicao }}</p>
+          <p>{{ d.texto }}</p>
+        </blockquote>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

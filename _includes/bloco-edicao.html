@@ -1,0 +1,32 @@
+<div class="bloco-edicao">
+  {%- assign evento = site.data.evento -%}
+  {%- case evento.status -%}
+
+  {%- when 'sem_data' -%}
+  <p class="bloco-edicao__etiqueta">Fique de olho</p>
+  <h1 class="bloco-edicao__titulo">Ainda não temos uma data marcada para a próxima edição</h1>
+  <p class="bloco-edicao__texto">Siga a gente nas redes sociais para saber assim que abrirmos as próximas inscrições.</p>
+  <ul class="bloco-edicao__redes">
+    <li><a href="{{ site.data.social.instagram }}">Instagram</a></li>
+    <li><a href="{{ site.data.social.twitter }}">Twitter</a></li>
+    <li><a href="{{ site.data.social.facebook }}">Facebook</a></li>
+  </ul>
+
+  {%- when 'inscricoes_abertas' -%}
+  <p class="bloco-edicao__etiqueta">Inscrições abertas</p>
+  <h1 class="bloco-edicao__titulo">{% include formatar-data.html data=evento.data %}</h1>
+  <p class="bloco-edicao__texto">Das {{ evento.horario }} - {{ evento.local }}</p>
+  <a class="botao botao--primario" href="{{ evento.link_inscricao }}">Participe</a>
+
+  {%- when 'encerradas' -%}
+  <p class="bloco-edicao__etiqueta">Inscrições encerradas</p>
+  <h1 class="bloco-edicao__titulo">{% include formatar-data.html data=evento.data %}</h1>
+  <p class="bloco-edicao__texto">Das {{ evento.horario }} - {{ evento.local }}</p>
+
+  {%- when 'realizado' -%}
+  <p class="bloco-edicao__etiqueta">Obrigada por participar!</p>
+  <h1 class="bloco-edicao__titulo">A {{ evento.nome }} foi um sucesso</h1>
+  <p class="bloco-edicao__texto">Fique de olho nas redes sociais para saber da próxima edição.</p>
+
+  {%- endcase -%}
+</div>

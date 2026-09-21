@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" role="img" aria-label="Placeholder: Rails Foundation">
+  <rect width="240" height="100" fill="#fff0f0"/>
+  <rect x="4" y="4" width="232" height="92" fill="none" stroke="#911802" stroke-width="2" stroke-dasharray="8 6" rx="10"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#911802" font-family="sans-serif" font-size="14" font-weight="700">Rails Foundation</text>
+</svg>

@@ -1,0 +1,14 @@
+# Números e rótulos lidos com confiança do screenshot de referência.
+- rotulo: Eventos
+  valor: 9
+  icone: calendario
+- rotulo: Participantes
+  valor: 400
+  icone: pessoas
+  destaque: true
+- rotulo: Tutoras
+  valor: 217
+  icone: tutoras
+- rotulo: Horas de evento
+  valor: 100
+  icone: relogio

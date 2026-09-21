@@ -13,7 +13,7 @@ Site mantido por um grupo voluntário com pouco tempo. A regra principal de qual
 ## Estrutura
 
 - `_data/evento.yml` — **única fonte de verdade da edição atual** (status, data, local, link de inscrição). Atualizar edição = editar só esse arquivo. Ver `MANUTENCAO.md`.
-- `_data/patrocinadores.yml`, `_data/apoiadores.yml`, `_data/edicoes_anteriores.yml`, `_data/impacto.yml`, `_data/depoimentos.yml`, `_data/organizadoras.yml`, `_data/faq.yml` — todo o conteúdo variável da home. Editar esses arquivos, não o HTML, para atualizar conteúdo.
+- `_data/patrocinadores.yml`, `_data/apoiadores.yml`, `_data/edicoes_anteriores.yml`, `_data/impacto.yml`, `_data/depoimentos.yml`, `_data/organizadoras.yml`, `_data/faq.yml`, `_data/social.yml` — todo o conteúdo variável da home. Editar esses arquivos, não o HTML, para atualizar conteúdo.
 - `_layouts/default.html`, `_includes/*.html` — layout e uma include por seção da home (ver ordem abaixo).
 - `index.html` — home; monta as includes na ordem definida.
 - `assets/css/`, `assets/img/`, `assets/js/` — estilos, imagens e o pouco JS do layout novo.
@@ -63,18 +63,21 @@ Extraídos do site Framer ao vivo (`railsgirlssp.framer.website`) em 2026-09-21,
 ```css
 --color-primary: #911802;      /* vermelho principal: títulos, botões, ícones */
 --color-primary-dark: #490606; /* footer, banner CTA escuro */
---color-text: #444444;
+--color-acento: #d63a2f;       /* botão do CTA final */
+--color-text: #2b2b2b;
 --color-text-muted: #757575;
 --color-bg-soft: #fff0f0;      /* cards e seções destacadas */
 --color-bg-soft-alt: #ffdddd;
 --color-gray: #a8a8a8;
+--color-bg-neutro: #e9e6e3;    /* barra de copyright do footer */
+--color-white: #ffffff;
 ```
 
 **Tipografia** (Google Fonts, gratuitas — carregadas via `<link>`, sem build):
 - Títulos: `Baloo 2`, peso 700. No Framer os tamanhos são fixos (96/64/50px desktop) — aqui usamos `clamp()` para responsividade real.
 - Corpo: `Inter`.
 
-**Outros:** `border-radius` de 12px em cards, ~40px em botões (pill), variações pontuais em 9px/16px.
+**Outros:** `border-radius` de 12px em cards, ~40px em botões (pill), variações pontuais em outros elementos (8px, 20px, 28px).
 
 ## Animação
 

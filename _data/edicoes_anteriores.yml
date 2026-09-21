@@ -1,8 +1,5 @@
-# Dados lidos com confiança do screenshot de referência (plan/framer-version.png).
-# Fotos reais baixadas do Framer; a associação foto-edição foi inferida (a da
-# edição de novembro/2025 mostra a marca "alice", que bate com o local dessa
-# edição — as outras duas foram atribuídas sem uma marcação equivalente no
-# HTML de origem, vale conferir).
+# Fotos reais baixadas direto do site Framer ao vivo, confirmadas pelo link
+# de cada card (nov-25, jun-25, saopaulo2024.html) - não é mais inferência.
 - titulo: Edição 2025 - Novembro
   foto: /assets/img/edicoes/2025-11.jpg
   local: Alice Saúde

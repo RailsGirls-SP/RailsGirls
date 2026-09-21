@@ -481,17 +481,26 @@ section {
   margin-top: 2rem;
 }
 
+.organizadoras__card {
+  text-align: center;
+}
+
 .organizadoras__card img {
   border-radius: var(--radius-card);
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  margin-inline: auto;
 }
 
 .organizadoras__info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 0.75rem;
+}
+
+.organizadoras__nome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
 }
 
 .organizadoras__card h3 {
@@ -508,7 +517,6 @@ section {
 .organizadoras__info a {
   color: var(--color-text-muted);
   flex-shrink: 0;
-  margin-left: 0.75rem;
 }
 
 /* Redes sociais */

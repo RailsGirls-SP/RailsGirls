@@ -7,8 +7,10 @@
       <ul class="patrocinadores__lista">
         {% for item in tier.itens %}
         <li>
+          {%- assign largura = item.largura | default: 180 -%}
+          {%- assign altura = item.altura | default: 72 -%}
           {% if item.url != "" %}<a href="{{ item.url }}">{% endif -%}
-          <img src="{{ item.logo | relative_url }}" alt="{{ item.nome }}" loading="lazy" width="180" height="72">
+          <img src="{{ item.logo | relative_url }}" alt="{{ item.nome }}" loading="lazy" width="{{ largura }}" height="{{ altura }}">
           {%- if item.url != "" %}</a>{% endif %}
         </li>
         {% endfor %}

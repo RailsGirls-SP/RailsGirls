@@ -1,0 +1,15 @@
+<section class="impacto revelar" aria-labelledby="impacto-titulo">
+  <div class="container">
+    <h2 id="impacto-titulo" class="titulo-secao">Nosso impacto</h2>
+    <p>Há 10 anos, o Rails Girls São Paulo inspira, conecta e fortalece mulheres na tecnologia.</p>
+    <ul class="impacto__lista">
+      {% for item in site.data.impacto %}
+      <li class="impacto__tile{% if item.destaque %} impacto__tile--destaque{% endif %}">
+        {% include icone.html nome=item.icone %}
+        <strong>{{ item.valor }}</strong>
+        <span>{{ item.rotulo }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

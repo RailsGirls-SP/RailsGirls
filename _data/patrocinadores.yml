@@ -1,0 +1,39 @@
+# Patrocinadores por tier, na ordem em que aparecem na home.
+# Logos reais baixados do Framer.
+- tier: Patrocínio Ruby
+  itens:
+    - nome: Rails Foundation
+      logo: /assets/img/patrocinadores/rails-foundation.svg
+      url: ""
+- tier: Patrocínio Diamante
+  itens:
+    - nome: KnowBe4
+      logo: /assets/img/patrocinadores/knowbe4.png
+      url: ""
+- tier: Patrocínio Safira
+  itens:
+    - nome: Code Miner
+      logo: /assets/img/patrocinadores/code-miner.png
+      url: ""
+    - nome: Planet Argon
+      logo: /assets/img/patrocinadores/planet-argon.png
+      url: ""
+    - nome: AppSignal
+      logo: /assets/img/patrocinadores/appsignal.png
+      url: ""
+- tier: Patrocínio Esmeralda
+  itens:
+    - nome: Smart Fit
+      logo: /assets/img/patrocinadores/smart-fit.png
+      url: ""
+    - nome: Le Wagon
+      logo: /assets/img/patrocinadores/le-wagon.png
+      url: ""
+    - nome: Tidewave
+      logo: /assets/img/patrocinadores/tidewave.png
+      url: ""
+- tier: Apoio
+  itens:
+    - nome: Ruby Central
+      logo: /assets/img/patrocinadores/ruby-central.png
+      url: ""

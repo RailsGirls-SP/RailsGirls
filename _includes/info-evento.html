@@ -1,0 +1,15 @@
+{%- unless site.data.evento.status == 'sem_data' -%}
+<section class="info-evento" aria-labelledby="info-evento-titulo">
+  <div class="container info-evento__grid">
+    <div>
+      <h2 id="info-evento-titulo" class="rotulo">Workshop</h2>
+      <p>Rails Girls é um workshop gratuito para mulheres darem os primeiros passos na programação, com Ruby on Rails, em um ambiente acolhedor e sem pré-requisitos técnicos.</p>
+    </div>
+    <div>
+      <h2 class="rotulo">Local</h2>
+      <p><a class="link-endereco" href="https://www.google.com/maps/search/?api=1&query={{ site.data.evento.endereco | url_encode }}">{{ site.data.evento.endereco }}</a></p>
+      <img src="{{ site.data.evento.logo_local | relative_url }}" alt="Logo do espaço {{ site.data.evento.local }}" width="220" height="80" loading="lazy">
+    </div>
+  </div>
+</section>
+{%- endunless -%}

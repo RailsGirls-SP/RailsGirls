@@ -1,0 +1,19 @@
+<section class="patrocinadores revelar" aria-labelledby="patrocinadores-titulo">
+  <div class="container centralizado">
+    <h2 id="patrocinadores-titulo" class="titulo-secao">Patrocinadores e apoiadores</h2>
+    {% for tier in site.data.patrocinadores %}
+    <div class="patrocinadores__tier">
+      <h3>{{ tier.tier }}</h3>
+      <ul class="patrocinadores__lista">
+        {% for item in tier.itens %}
+        <li>
+          {% if item.url != "" %}<a href="{{ item.url }}">{% endif -%}
+          <img src="{{ item.logo | relative_url }}" alt="{{ item.nome }}" loading="lazy" width="180" height="72">
+          {%- if item.url != "" %}</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>

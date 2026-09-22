@@ -1,0 +1,17 @@
+- tier: Patrocínio Ruby
+  itens:
+    - nome: Rails Foundation
+      logo: /assets/img/patrocinadores/rails-foundation.svg
+      url: ""
+      largura: 120
+      altura: 119
+    - nome: Vórtx
+      logo: /assets/img/parceiros/vortx.png
+      url: "https://www.vortx.com.br/"
+      largura: 240
+      altura: 87
+- tier: Apoio
+  itens:
+    - nome: Ruby Central
+      logo: /assets/img/patrocinadores/ruby-central.png
+      url: ""

@@ -1,0 +1,13 @@
+<section class="redes-sociais revelar" aria-labelledby="redes-sociais-titulo">
+  <div class="container centralizado">
+    <h2 id="redes-sociais-titulo" class="titulo-secao">Siga nossas redes sociais</h2>
+    <ul class="redes-sociais__lista">
+      <li><a href="{{ site.data.social.instagram }}"><span class="sr-only">Instagram</span>{% include icone.html nome="instagram" %}</a></li>
+      <li><a href="{{ site.data.social.twitter }}"><span class="sr-only">Twitter</span>{% include icone.html nome="twitter" %}</a></li>
+      <li><a href="{{ site.data.social.facebook }}"><span class="sr-only">Facebook</span>{% include icone.html nome="facebook" %}</a></li>
+      <li><a href="{{ site.data.social.linkedin }}"><span class="sr-only">LinkedIn</span>{% include icone.html nome="linkedin" %}</a></li>
+      <li><a href="{{ site.data.social.youtube }}"><span class="sr-only">YouTube</span>{% include icone.html nome="youtube" %}</a></li>
+      {% if site.data.social.whatsapp != "" %}<li><a href="{{ site.data.social.whatsapp }}"><span class="sr-only">WhatsApp</span>{% include icone.html nome="whatsapp" %}</a></li>{% endif %}
+    </ul>
+  </div>
+</section>

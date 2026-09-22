@@ -1,0 +1,31 @@
+<footer class="rodape">
+  <div class="container rodape__grid">
+    <div class="rodape__marca">
+      <img src="{{ '/assets/img/rodape/mascote.png' | relative_url }}" alt="" width="240" height="320" loading="lazy">
+    </div>
+    <div>
+      <img class="rodape__logo" src="{{ '/assets/img/logo-rails-girls.png' | relative_url }}" alt="Rails Girls São Paulo" loading="lazy" width="700" height="250">
+      <p class="rodape__sobre">O Rails Girls é um projeto sem fins lucrativos para mulheres com pouca ou nenhuma experiência em programação, mostrando que TI é acessível e que elas podem fazer parte desse mundo!</p>
+    </div>
+    <div>
+      <h2>Redes sociais</h2>
+      <ul class="rodape__redes">
+        <li><a href="{{ site.data.social.twitter }}">Twitter</a></li>
+        <li><a href="{{ site.data.social.instagram }}">Instagram</a></li>
+        <li><a href="{{ site.data.social.linkedin }}">LinkedIn</a></li>
+        <li><a href="{{ site.data.social.facebook }}">Facebook</a></li>
+        <li><a href="{{ site.data.social.youtube }}">YouTube</a></li>
+        {% if site.data.social.whatsapp != "" %}<li><a href="{{ site.data.social.whatsapp }}">WhatsApp</a></li>{% endif %}
+      </ul>
+
+      <h2>Arquivo histórico</h2>
+      <ul class="rodape__historico">
+        <li><a href="{{ '/saopaulo2024-2-edicao.html' | relative_url }}">Edição de novembro de 2024</a></li>
+        <li><a href="{{ '/saopaulo2024.html' | relative_url }}">Edição de 2024</a></li>
+        <li><a href="{{ '/saopaulo2019.html' | relative_url }}">Edição de 2019</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rodape__diamantes" aria-hidden="true"></div>
+  <p class="rodape__copyright">&copy; Copyright Rails Girls {{ site.time | date: "%Y" }}. Todos os direitos reservados.</p>
+</footer>

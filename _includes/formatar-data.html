@@ -1,0 +1,16 @@
+{%- assign mes_str = include.data | date: "%m" -%}
+{%- case mes_str -%}
+  {%- when "01" -%}{%- assign mes_nome = "janeiro" -%}
+  {%- when "02" -%}{%- assign mes_nome = "fevereiro" -%}
+  {%- when "03" -%}{%- assign mes_nome = "março" -%}
+  {%- when "04" -%}{%- assign mes_nome = "abril" -%}
+  {%- when "05" -%}{%- assign mes_nome = "maio" -%}
+  {%- when "06" -%}{%- assign mes_nome = "junho" -%}
+  {%- when "07" -%}{%- assign mes_nome = "julho" -%}
+  {%- when "08" -%}{%- assign mes_nome = "agosto" -%}
+  {%- when "09" -%}{%- assign mes_nome = "setembro" -%}
+  {%- when "10" -%}{%- assign mes_nome = "outubro" -%}
+  {%- when "11" -%}{%- assign mes_nome = "novembro" -%}
+  {%- when "12" -%}{%- assign mes_nome = "dezembro" -%}
+{%- endcase -%}
+{{ include.data | date: "%-d" }} de {{ mes_nome }}

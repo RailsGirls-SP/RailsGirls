@@ -1,0 +1,12 @@
+<section class="faq revelar" aria-labelledby="faq-titulo">
+  <div class="container">
+    <h2 id="faq-titulo" class="titulo-secao">Perguntas frequentes</h2>
+    {% for item in site.data.faq %}
+    <details class="faq__item">
+      <summary>{{ item.pergunta }}</summary>
+      <p>{{ item.resposta }}</p>
+    </details>
+    {% endfor %}
+    <p class="faq__contato">Ainda ficou em dúvida? Mande email para <a href="mailto:{{ site.data.social.email_duvidas }}">{{ site.data.social.email_duvidas }}</a></p>
+  </div>
+</section>

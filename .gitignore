@@ -1,0 +1,5 @@
+Gemfile.lock
+_site/
+.jekyll-cache/
+plan/
+.DS_Store

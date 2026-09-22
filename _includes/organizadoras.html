@@ -1,0 +1,22 @@
+<section class="organizadoras revelar" aria-labelledby="organizadoras-titulo">
+  <div class="container centralizado">
+    <h2 id="organizadoras-titulo" class="titulo-secao">Conheça nossas organizadoras</h2>
+    <p>O Rails Girls só é possível graças a esse time lindo que se esforça demais para que ele aconteça e seja perfeito!</p>
+    <ul class="organizadoras__lista">
+      {% for pessoa in site.data.organizadoras %}
+      <li class="organizadoras__card">
+        <img src="{{ pessoa.foto | relative_url }}" alt="Foto de {{ pessoa.nome }}" loading="lazy" width="300" height="300">
+        <div class="organizadoras__info">
+          <div class="organizadoras__nome">
+            <h3>{{ pessoa.nome }}</h3>
+            {% if pessoa.linkedin != "" %}
+            <a href="{{ pessoa.linkedin }}" aria-label="LinkedIn de {{ pessoa.nome }}">{% include icone.html nome="linkedin" %}</a>
+            {% endif %}
+          </div>
+          <p>{{ pessoa.cargo }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

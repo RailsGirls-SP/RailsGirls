@@ -1,0 +1,17 @@
+<section class="edicoes revelar" aria-labelledby="edicoes-titulo">
+  <div class="container">
+    <h2 id="edicoes-titulo" class="titulo-secao">Edições anteriores</h2>
+    <p>Impactando mulheres com aprendizado prático, networking e incentivo à programação.</p>
+    <ul class="edicoes__lista">
+      {% for edicao in site.data.edicoes_anteriores %}
+      <li class="edicoes__card">
+        <img src="{{ edicao.foto | relative_url }}" alt="Foto da {{ edicao.titulo }}" loading="lazy" width="400" height="500">
+        <h3>{{ edicao.titulo }}</h3>
+        <p><strong>Local:</strong> {{ edicao.local }}</p>
+        <p><strong>Participantes:</strong> {{ edicao.participantes }}</p>
+        <p><strong>Tutoras:</strong> {{ edicao.tutoras }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

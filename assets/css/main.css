@@ -666,6 +666,57 @@ section {
   color: var(--color-text);
 }
 
+.rodape__conduta {
+  font-weight: 600;
+}
+
+/* Páginas de texto (ex.: Código de Conduta) */
+
+.pagina__topo {
+  padding-block: 1.5rem;
+  border-bottom: 1px solid var(--color-bg-soft-alt);
+}
+
+.pagina__logo {
+  width: 160px;
+}
+
+.pagina {
+  padding-block: var(--espaco-secao);
+}
+
+.texto {
+  max-width: 72ch;
+}
+
+.texto h1 {
+  font-size: clamp(2.25rem, 6vw, 3.5rem);
+  color: var(--color-primary);
+  margin-bottom: 0.25em;
+}
+
+.texto h2 {
+  font-size: clamp(1.3rem, 3vw, 1.75rem);
+  color: var(--color-primary);
+  margin-top: 2em;
+  scroll-margin-top: 1rem;
+}
+
+.texto ul {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.texto li {
+  margin-bottom: 0.5em;
+}
+
+.texto__versao {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
 /* Revelação sutil ao rolar a página — desativada com prefers-reduced-motion */
 
 @media (prefers-reduced-motion: no-preference) {

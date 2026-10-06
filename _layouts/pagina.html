@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="pagina__topo">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}"><img class="pagina__logo" src="{{ '/assets/img/logo-rails-girls.png' | relative_url }}" alt="Rails Girls São Paulo — voltar para a página inicial" width="700" height="250"></a>
+  </div>
+</header>
+<main id="conteudo" class="pagina">
+  <div class="container texto">
+    {{ content }}
+  </div>
+</main>
+{% include footer.html %}

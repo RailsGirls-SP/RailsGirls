@@ -16,3 +16,5 @@
   resposta: "Entre em contato conosco através de contato@railsgirls.com.br. Para adiantar a conversa, disponibilizamos nosso media-kit."
 - pergunta: Posso ajudar de mais alguma maneira?
   resposta: "SIM! Você pode compartilhar com a galera para nos ajudar a espalhar a palavra do Rails Girls por aí e quem sabe até encontrar novos patrocinadores."
+- pergunta: O evento tem código de conduta?
+  resposta: "Sim! Todas as pessoas envolvidas no Rails Girls São Paulo seguem o nosso <a href=\"/codigo-de-conduta/\">Código de Conduta</a>. Se algo te deixar desconfortável, fale com a organização ou escreva para conduta@railsgirls.com.br."

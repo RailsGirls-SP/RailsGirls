@@ -13,10 +13,10 @@
   </ul>
 
   {%- when 'inscricoes_abertas' -%}
-  <p class="bloco-edicao__etiqueta">Inscrições abertas</p>
+  <p class="bloco-edicao__etiqueta">Foi um sucesso!</p>
   <h1 class="bloco-edicao__titulo">{% include formatar-data.html data=evento.data %}</h1>
   <p class="bloco-edicao__texto">Das {{ evento.horario }} - {{ evento.local }}</p>
-  <a class="botao botao--primario" href="{{ evento.link_inscricao }}">Participe</a>
+  <a class="botao botao--primario" href="{{ evento.link_inscricao }}">Siga no Luma</a>
 
   {%- when 'encerradas' -%}
   <p class="bloco-edicao__etiqueta">Inscrições encerradas</p>
